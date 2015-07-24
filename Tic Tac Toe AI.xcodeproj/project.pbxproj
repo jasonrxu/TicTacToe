@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		968777CB1B61CA0E008469E0 /* HumanPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 968777C91B61CA0E008469E0 /* HumanPlayer.cpp */; };
+		968D0EAD1B627B6900125344 /* AIPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 968D0EAB1B627B6900125344 /* AIPlayer.cpp */; };
+		96B37EF31B600F6800813024 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B37EF21B600F6800813024 /* main.cpp */; };
+		96B37EFB1B600F8300813024 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B37EF91B600F8300813024 /* Game.cpp */; };
+		96B37EFE1B600F9A00813024 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B37EFC1B600F9A00813024 /* Player.cpp */; };
+		96B37F011B600FB200813024 /* JasonAI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B37EFF1B600FB200813024 /* JasonAI.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96B37EED1B600F6800813024 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		968777C91B61CA0E008469E0 /* HumanPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HumanPlayer.cpp; sourceTree = "<group>"; };
+		968777CA1B61CA0E008469E0 /* HumanPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HumanPlayer.hpp; sourceTree = "<group>"; };
+		968D0EAB1B627B6900125344 /* AIPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AIPlayer.cpp; sourceTree = "<group>"; };
+		968D0EAC1B627B6900125344 /* AIPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AIPlayer.hpp; sourceTree = "<group>"; };
+		96B37EEF1B600F6800813024 /* Tic Tac Toe AI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic Tac Toe AI"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B37EF21B600F6800813024 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		96B37EF91B600F8300813024 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		96B37EFA1B600F8300813024 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		96B37EFC1B600F9A00813024 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		96B37EFD1B600F9A00813024 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		96B37EFF1B600FB200813024 /* JasonAI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JasonAI.cpp; sourceTree = "<group>"; };
+		96B37F001B600FB200813024 /* JasonAI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JasonAI.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B37EEC1B600F6800813024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B37EE61B600F6800813024 = {
+			isa = PBXGroup;
+			children = (
+				96B37EF11B600F6800813024 /* Tic Tac Toe AI */,
+				96B37EF01B600F6800813024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B37EF01B600F6800813024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B37EEF1B600F6800813024 /* Tic Tac Toe AI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B37EF11B600F6800813024 /* Tic Tac Toe AI */ = {
+			isa = PBXGroup;
+			children = (
+				96B37EF21B600F6800813024 /* main.cpp */,
+				96B37EF91B600F8300813024 /* Game.cpp */,
+				96B37EFA1B600F8300813024 /* Game.hpp */,
+				96B37EFC1B600F9A00813024 /* Player.cpp */,
+				96B37EFD1B600F9A00813024 /* Player.hpp */,
+				96B37EFF1B600FB200813024 /* JasonAI.cpp */,
+				96B37F001B600FB200813024 /* JasonAI.hpp */,
+				968D0EAB1B627B6900125344 /* AIPlayer.cpp */,
+				968D0EAC1B627B6900125344 /* AIPlayer.hpp */,
+				968777C91B61CA0E008469E0 /* HumanPlayer.cpp */,
+				968777CA1B61CA0E008469E0 /* HumanPlayer.hpp */,
+			);
+			path = "Tic Tac Toe AI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B37EEE1B600F6800813024 /* Tic Tac Toe AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B37EF61B600F6800813024 /* Build configuration list for PBXNativeTarget "Tic Tac Toe AI" */;
+			buildPhases = (
+				96B37EEB1B600F6800813024 /* Sources */,
+				96B37EEC1B600F6800813024 /* Frameworks */,
+				96B37EED1B600F6800813024 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tic Tac Toe AI";
+			productName = "Tic Tac Toe AI";
+			productReference = 96B37EEF1B600F6800813024 /* Tic Tac Toe AI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B37EE71B600F6800813024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jason Xu";
+				TargetAttributes = {
+					96B37EEE1B600F6800813024 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 96B37EEA1B600F6800813024 /* Build configuration list for PBXProject "Tic Tac Toe AI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96B37EE61B600F6800813024;
+			productRefGroup = 96B37EF01B600F6800813024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B37EEE1B600F6800813024 /* Tic Tac Toe AI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B37EEB1B600F6800813024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B37F011B600FB200813024 /* JasonAI.cpp in Sources */,
+				96B37EF31B600F6800813024 /* main.cpp in Sources */,
+				96B37EFB1B600F8300813024 /* Game.cpp in Sources */,
+				968777CB1B61CA0E008469E0 /* HumanPlayer.cpp in Sources */,
+				968D0EAD1B627B6900125344 /* AIPlayer.cpp in Sources */,
+				96B37EFE1B600F9A00813024 /* Player.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96B37EF41B600F6800813024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96B37EF51B600F6800813024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96B37EF71B600F6800813024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96B37EF81B600F6800813024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B37EEA1B600F6800813024 /* Build configuration list for PBXProject "Tic Tac Toe AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B37EF41B600F6800813024 /* Debug */,
+				96B37EF51B600F6800813024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B37EF61B600F6800813024 /* Build configuration list for PBXNativeTarget "Tic Tac Toe AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B37EF71B600F6800813024 /* Debug */,
+				96B37EF81B600F6800813024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B37EE71B600F6800813024 /* Project object */;
+}
